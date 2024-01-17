@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  padding: 16px 183px 100px;
+  background-color: #1f2937;
+}
+
+footer {
+  text-align: center;
+  padding: 24px 0;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+nav,
+ul,
+.hero-content,
+.hero-content div:nth-child(2) {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding: 50px 0;
+}
+
+strong {
+  display: block;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: right;
+}
+
+button {
+  border: none;
+  padding: 8px 32px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.hero-logo,
+h1,
+.hero-content button {
+  color: #f9faf8;
+}
+
+.hero-logo {
+  margin-right: auto;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.hero-content {
+  gap: 64px;
+}
+
+.hero-content div {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.hero-content p,
+.hero-content button {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+a,
+.hero-content p,
+.hero-content div:nth-child(2) {
+  color: #e5e7eb;
+}
+
+.hero-content div:nth-child(2) {
+  justify-content: center;
+  align-items: center;
+  background-color: #868e96;
+}
+
+.information {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.image-container {
+  width: 150px;
+}
+
+.image-container div {
+  border: 3px solid #3882f6;
+  height: 150px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+
+.quote {
+  padding: 100px 0 80px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote p {
+  font-weight: 100;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  width: 59%;
+}
+
+.cta-container {
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-box {
+  padding: 32px 0;
+  width: 65%;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #f9faf8;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 64px;
+}
+
+.cta-box p:nth-child(1) {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.cta-box p:nth-child(2) {
+  color: #e5e7eb;
+}
+
+.cta-box button {
+  border: 2px solid #f9faf8;
+}
